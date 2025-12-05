@@ -1,20 +1,19 @@
-# Política de Privacidad - Nexfinance
+# Política de Privacidad - Fluxo
 
-**Última actualización**: Noviembre 2025
+**Última actualización**: Diciembre 2025
 
 ## 1. Introducción
 
-Nexfinance ("nosotros", "nuestro" o "la aplicación") se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestra aplicación móvil de gestión de finanzas personales.
+Fluxo ("nosotros", "nuestro" o "la aplicación") se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestra aplicación móvil de gestión de finanzas personales.
 
-Al usar Nexfinance, aceptas la recopilación y uso de información de acuerdo con esta política.
+Al usar Fluxo, aceptas la recopilación y uso de información de acuerdo con esta política.
 
 ## 2. Información que Recopilamos
 
 ### 2.1 Información que Proporcionas
 
 - **Información de Cuenta**: Email, nombre, contraseña (encriptada)
-- **Información Financiera**: Datos de cuentas bancarias, transacciones, presupuestos, metas
-- **Documentos**: Cartolas bancarias escaneadas (opcional)
+- **Información Financiera**: Datos de cuentas bancarias (Opcional), transacciones, presupuestos, metas
 - **Preferencias**: Configuración de la aplicación, notificaciones
 
 ### 2.2 Información Recopilada Automáticamente
@@ -91,7 +90,7 @@ Tienes derecho a:
 - **Oposición**: Oponerte al procesamiento de tus datos
 - **Revocar Consentimiento**: Retirar tu consentimiento en cualquier momento
 
-Para ejercer estos derechos, contacta: privacy@nexfinance.cl
+Para ejercer estos derechos, contacta: dai.dev.997@gmail.cl
 
 ## 7. Retención de Datos
 
@@ -102,7 +101,7 @@ Para ejercer estos derechos, contacta: privacy@nexfinance.cl
 
 ## 8. Privacidad de Menores
 
-Nexfinance no está dirigida a menores de 18 años. No recopilamos intencionalmente información de menores. Si descubrimos que hemos recopilado información de un menor, la eliminaremos inmediatamente.
+Fluxo no está dirigida a menores de 18 años. No recopilamos intencionalmente información de menores. Si descubrimos que hemos recopilado información de un menor, la eliminaremos inmediatamente.
 
 ## 9. Cookies y Tecnologías Similares
 
@@ -110,7 +109,7 @@ La aplicación móvil no utiliza cookies. Sin embargo, utilizamos:
 
 - **SharedPreferences**: Para guardar preferencias locales
 - **Secure Storage**: Para datos sensibles
-- **Analytics**: Para mejorar la aplicación (opcional, puedes desactivarlo)
+- **Analytics**: Para mejorar la aplicación
 
 ## 10. Transferencias Internacionales
 
@@ -126,25 +125,14 @@ Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos
 
 El uso continuado de la aplicación después de cambios constituye aceptación de la nueva política.
 
-## 12. Protección de Datos en Chile
+## 12. Datos Financieros
 
-Cumplimos con la Ley N° 19.628 sobre Protección de la Vida Privada de Chile y el Reglamento General de Protección de Datos (GDPR) cuando sea aplicable.
-
-## 13. Datos Financieros
-
-### 13.1 Información Bancaria
+### 12.1 Información Bancaria
 
 - **NO almacenamos**: Números de tarjeta completos, CVV, contraseñas bancarias
-- **SÍ almacenamos**: Últimos 4 dígitos, nombre del banco, balances, transacciones
+- **SÍ almacenamos**: Últimos 4 dígitos (Opcional), nombre del banco (Opcional), balances, transacciones
 
-### 13.2 Cartolas Escaneadas
-
-- Las imágenes de cartolas se procesan localmente con ML Kit
-- Opcionalmente se pueden subir a Supabase Storage (encriptadas)
-- Puedes eliminar las imágenes en cualquier momento
-- Las imágenes no se comparten con terceros
-
-## 14. Tus Opciones
+## 13. Tus Opciones
 
 Puedes controlar tu información mediante:
 
@@ -155,26 +143,18 @@ Puedes controlar tu información mediante:
 - **Exportación**: Exportar todos tus datos en cualquier momento
 - **Eliminación**: Eliminar tu cuenta y todos los datos
 
-## 15. Contacto
+## 14. Contacto
 
 Si tienes preguntas sobre esta Política de Privacidad, contacta:
 
 **Nexfinance**
-- Email: privacy@nexfinance.cl
-- Soporte: soporte@nexfinance.cl
-- Dirección: [Tu dirección]
+- Email: dai.dev.997@gmail.cl
+- Soporte: dai.dev.997@gmail.cl
 
-## 16. Autoridad de Protección de Datos
 
-Si consideras que tus derechos de privacidad han sido violados, puedes presentar una queja ante:
+## 15. Consentimiento
 
-**Consejo para la Transparencia**
-- Sitio web: https://www.consejotransparencia.cl
-- Teléfono: +56 2 2753 2300
-
-## 17. Consentimiento
-
-Al usar Nexfinance, consientes:
+Al usar Fluxo, consientes:
 
 - La recopilación y uso de tu información según esta política
 - El almacenamiento de datos en tu dispositivo y en la nube
@@ -185,7 +165,7 @@ Puedes revocar tu consentimiento eliminando tu cuenta en cualquier momento.
 
 ---
 
-**Fecha de vigencia**: Noviembre 2025
+**Fecha de vigencia**: Diciembre 2025
 **Versión**: 1.0.0
 
-Esta Política de Privacidad fue actualizada por última vez el [fecha]. Revisa esta página periódicamente para estar informado de cualquier cambio.
+Esta Política de Privacidad fue actualizada por última vez el 2025-12-05. Revisa esta página periódicamente para estar informado de cualquier cambio.
