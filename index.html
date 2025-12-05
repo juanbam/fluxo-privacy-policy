@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Fluxo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            line-height: 1.8;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid;
+            border-image: linear-gradient(90deg, #3B82F6, #10b981) 1;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #3B82F6, #10b981);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
+        }
+        
+        .logo svg {
+            width: 40px;
+            height: 40px;
+        }
+        
+        h1 {
+            background: linear-gradient(135deg, #3B82F6, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 2.5em;
+            font-weight: 900;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1em;
+        }
+        
+        .last-update {
+            background: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid #3B82F6;
+            padding: 15px 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+        }
+        
+        h2 {
+            color: #3B82F6;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+        }
+        
+        h3 {
+            color: #10b981;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #cbd5e1;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: #cbd5e1;
+        }
+        
+        strong {
+            color: #f1f5f9;
+            font-weight: 600;
+        }
+        
+        a {
+            color: #3B82F6;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+        
+        a:hover {
+            border-bottom-color: #3B82F6;
+        }
+        
+        .highlight-box {
+            background: rgba(16, 185, 129, 0.1);
+            border-left: 4px solid #10b981;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .warning-box {
+            background: rgba(239, 68, 68, 0.1);
+            border-left: 4px solid #ef4444;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(16, 185, 129, 0.1));
+            border: 2px solid rgba(59, 130, 246, 0.3);
+            padding: 30px;
+            margin: 40px 0;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            color: #64748b;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" fill="white" stroke="white" stroke-width="1.5"/>
+                </svg>
+            </div>
+            <h1>Política de Privacidad</h1>
+            <p class="subtitle">Fluxo - Finanzas Inteligentes</p>
+        </div>
+
+        <div class="last-update">
+            <strong>Última actualización:</strong> Diciembre 2025<br>
+            <strong>Versión:</strong> 1.0.0
+        </div>
+
+        <h2>1. Introducción</h2>
+        <p>Fluxo ("nosotros", "nuestro" o "la aplicación") se compromete a proteger tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestra aplicación móvil de gestión de finanzas personales.</p>
+        <p>Al usar Fluxo, aceptas la recopilación y uso de información de acuerdo con esta política.</p>
+
+        <h2>2. Información que Recopilamos</h2>
+        
+        <h3>2.1 Información que Proporcionas</h3>
+        <ul>
+            <li><strong>Información de Cuenta:</strong> Email, nombre, contraseña (encriptada)</li>
+            <li><strong>Información Financiera:</strong> Datos de cuentas bancarias (opcional), transacciones, presupuestos, metas</li>
+            <li><strong>Preferencias:</strong> Configuración de la aplicación, notificaciones</li>
+        </ul>
+
+        <h3>2.2 Información Recopilada Automáticamente</h3>
+        <ul>
+            <li><strong>Datos de Uso:</strong> Funciones utilizadas, frecuencia de uso</li>
+            <li><strong>Información del Dispositivo:</strong> Modelo, sistema operativo, versión de la app</li>
+            <li><strong>Datos de Rendimiento:</strong> Errores, crashes, tiempos de carga</li>
+        </ul>
+
+        <h3>2.3 Información de Terceros</h3>
+        <ul>
+            <li><strong>Supabase:</strong> Proveedor de backend y autenticación</li>
+            <li><strong>Google ML Kit:</strong> Procesamiento OCR local (no envía datos a servidores)</li>
+        </ul>
+
+        <h2>3. Cómo Usamos tu Información</h2>
+        <p>Utilizamos la información recopilada para:</p>
+        <ul>
+            <li><strong>Proporcionar el Servicio:</strong> Gestionar tus finanzas, sincronizar datos</li>
+            <li><strong>Mejorar la Aplicación:</strong> Analizar uso, corregir errores, desarrollar nuevas funciones</li>
+            <li><strong>Comunicarnos Contigo:</strong> Notificaciones, actualizaciones, soporte</li>
+            <li><strong>Seguridad:</strong> Prevenir fraude, proteger tu cuenta</li>
+            <li><strong>Cumplimiento Legal:</strong> Cumplir con obligaciones legales</li>
+        </ul>
+
+        <h2>4. Almacenamiento y Seguridad de Datos</h2>
+        
+        <h3>4.1 Almacenamiento Local</h3>
+        <ul>
+            <li>Los datos se almacenan localmente en tu dispositivo usando SQLite</li>
+            <li>Los datos sensibles se encriptan usando flutter_secure_storage</li>
+            <li>Puedes usar autenticación biométrica para proteger el acceso</li>
+        </ul>
+
+        <h3>4.2 Almacenamiento en la Nube</h3>
+        <ul>
+            <li>Los datos se sincronizan con Supabase (PostgreSQL)</li>
+            <li>Conexión encriptada con HTTPS/TLS</li>
+            <li>Datos almacenados en servidores seguros</li>
+            <li>Backups automáticos</li>
+        </ul>
+
+        <h3>4.3 Medidas de Seguridad</h3>
+        <ul>
+            <li>Encriptación de datos en tránsito y en reposo</li>
+            <li>Autenticación segura con Supabase Auth</li>
+            <li>Tokens de sesión con expiración</li>
+            <li>Políticas de seguridad a nivel de fila (RLS)</li>
+        </ul>
+
+        <h2>5. Compartir Información</h2>
+        <div class="highlight-box">
+            <p><strong>NO vendemos, alquilamos ni compartimos tu información personal con terceros</strong>, excepto en los siguientes casos:</p>
+        </div>
+
+        <h3>5.1 Proveedores de Servicios</h3>
+        <ul>
+            <li><strong>Supabase:</strong> Backend, autenticación, almacenamiento</li>
+            <li><strong>Google ML Kit:</strong> Procesamiento OCR (local, no envía datos)</li>
+        </ul>
+
+        <h3>5.2 Cumplimiento Legal</h3>
+        <p>Podemos divulgar información si:</p>
+        <ul>
+            <li>Es requerido por ley</li>
+            <li>Es necesario para proteger nuestros derechos</li>
+            <li>Es necesario para prevenir fraude o abuso</li>
+        </ul>
+
+        <h3>5.3 Transferencia de Negocio</h3>
+        <p>En caso de fusión, adquisición o venta de activos, tu información puede ser transferida.</p>
+
+        <h2>6. Tus Derechos</h2>
+        <p>Tienes derecho a:</p>
+        <ul>
+            <li><strong>Acceder:</strong> Solicitar una copia de tus datos</li>
+            <li><strong>Rectificar:</strong> Corregir datos inexactos</li>
+            <li><strong>Eliminar:</strong> Solicitar la eliminación de tus datos</li>
+            <li><strong>Portabilidad:</strong> Exportar tus datos en formato CSV/Excel/PDF</li>
+            <li><strong>Oposición:</strong> Oponerte al procesamiento de tus datos</li>
+            <li><strong>Revocar Consentimiento:</strong> Retirar tu consentimiento en cualquier momento</li>
+        </ul>
+        <p>Para ejercer estos derechos, contacta: <a href="mailto:dai.dev.997@gmail.com">dai.dev.997@gmail.com</a></p>
+
+        <h2>7. Retención de Datos</h2>
+        <ul>
+            <li><strong>Cuenta Activa:</strong> Mientras uses la aplicación</li>
+            <li><strong>Cuenta Inactiva:</strong> 12 meses después de la última actividad</li>
+            <li><strong>Eliminación de Cuenta:</strong> Inmediata tras solicitud (con período de gracia de 30 días)</li>
+            <li><strong>Datos de Respaldo:</strong> Hasta 90 días después de la eliminación</li>
+        </ul>
+
+        <h2>8. Privacidad de Menores</h2>
+        <div class="warning-box">
+            <p>Fluxo no está dirigida a menores de 18 años. No recopilamos intencionalmente información de menores. Si descubrimos que hemos recopilado información de un menor, la eliminaremos inmediatamente.</p>
+        </div>
+
+        <h2>9. Cookies y Tecnologías Similares</h2>
+        <p>La aplicación móvil no utiliza cookies. Sin embargo, utilizamos:</p>
+        <ul>
+            <li><strong>SharedPreferences:</strong> Para guardar preferencias locales</li>
+            <li><strong>Secure Storage:</strong> Para datos sensibles</li>
+            <li><strong>Analytics:</strong> Para mejorar la aplicación</li>
+        </ul>
+
+        <h2>10. Transferencias Internacionales</h2>
+        <p>Tus datos pueden ser transferidos y almacenados en servidores ubicados fuera de Chile. Nos aseguramos de que estos proveedores cumplan con estándares de protección de datos adecuados.</p>
+
+        <h2>11. Cambios a esta Política</h2>
+        <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos de cambios significativos mediante:</p>
+        <ul>
+            <li>Notificación en la aplicación</li>
+            <li>Email a tu dirección registrada</li>
+            <li>Actualización de la fecha "Última actualización"</li>
+        </ul>
+        <p>El uso continuado de la aplicación después de cambios constituye aceptación de la nueva política.</p>
+
+        <h2>12. Datos Financieros</h2>
+        
+        <h3>12.1 Información Bancaria</h3>
+        <div class="highlight-box">
+            <p><strong>NO almacenamos:</strong> Números de tarjeta completos, CVV, contraseñas bancarias</p>
+            <p><strong>SÍ almacenamos:</strong> Últimos 4 dígitos (opcional), nombre del banco (opcional), balances, transacciones</p>
+        </div>
+
+        <h2>13. Tus Opciones</h2>
+        <p>Puedes controlar tu información mediante:</p>
+        <ul>
+            <li><strong>Configuración de la App:</strong> Ajustar preferencias de privacidad</li>
+            <li><strong>Sincronización:</strong> Activar/desactivar sincronización en la nube</li>
+            <li><strong>Biometría:</strong> Habilitar/deshabilitar autenticación biométrica</li>
+            <li><strong>Notificaciones:</strong> Controlar qué notificaciones recibes</li>
+            <li><strong>Exportación:</strong> Exportar todos tus datos en cualquier momento</li>
+            <li><strong>Eliminación:</strong> Eliminar tu cuenta y todos los datos</li>
+        </ul>
+
+        <div class="contact-box">
+            <h2 style="margin-top: 0;">14. Contacto</h2>
+            <p>Si tienes preguntas sobre esta Política de Privacidad, contacta:</p>
+            <p><strong>Fluxo</strong></p>
+            <p>Email: <a href="mailto:dai.dev.997@gmail.com">dai.dev.997@gmail.com</a></p>
+            <p>Soporte: <a href="mailto:dai.dev.997@gmail.com">dai.dev.997@gmail.com</a></p>
+        </div>
+
+        <h2>15. Consentimiento</h2>
+        <p>Al usar Fluxo, consientes:</p>
+        <ul>
+            <li>La recopilación y uso de tu información según esta política</li>
+            <li>El almacenamiento de datos en tu dispositivo y en la nube</li>
+            <li>El procesamiento de datos para proporcionar el servicio</li>
+            <li>La transferencia de datos a proveedores de servicio</li>
+        </ul>
+        <p>Puedes revocar tu consentimiento eliminando tu cuenta en cualquier momento.</p>
+
+        <div class="footer">
+            <p><strong>Fecha de vigencia:</strong> Diciembre 2025</p>
+            <p><strong>Versión:</strong> 1.0.0</p>
+            <p>Esta Política de Privacidad fue actualizada por última vez el 2025-12-05.</p>
+            <p>Revisa esta página periódicamente para estar informado de cualquier cambio.</p>
+            <p style="margin-top: 20px;">© 2025 Fluxo. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
